@@ -1,71 +1,71 @@
-# pLock - Timer Aplikacija
+# pLock - Тајмер Апликација
 
-Jednostavna aplikacija za upravljanje vremenom tokom prezentacija ili kvizova.
+Једноставна апликација за управљање временом током презентација или квизова.
 
 ![pLock Screenshot](assets/screenshot.png)
 
-## Sadržaj
-- [Instalacija](#instalacija)
-- [Upotreba](#upotreba)
-- [Postavke](#postavke)
-- [Prečice](#prečice)
-- [Licenca](#licenca)
+## Садржај
+- [Инсталација](#инсталација)
+- [Употреба](#употреба)
+- [Подешавања](#подешавања)
+- [Пречице](#пречице)
+- [Лиценца](#лиценца)
 
-## Instalacija
+## Инсталација
 
-1. **Obavezni preduvjeti**:
+1. **Обавезни предуслови**:
    - Python 3.x
-   - Tkinter (obično već instaliran sa Pythonom)
-   - Pillow biblioteka:  
+   - Tkinter (обично већ инсталиран са Python-ом)
+   - Pillow библиотека:  
      ```bash
      pip install Pillow
      ```
 
-2. **Font**:
-   - Preuzmite font [DS-Digital](https://www.dafont.com/ds-digital.font)
-   - Kreirajte folder `fonts` u projektu
-   - Postavite `DS-DIGIT.ttf` u `fonts` folder
+2. **Фонт**:
+   - Преузмите фонт [DS-Digital](https://www.dafont.com/ds-digital.font)
+   - Креирајте фолдер `fonts` у пројекту
+   - Поставите `DS-DIGIT.ttf` у `fonts` фолдер
 
-3. **Slike**:
-   - Kreirajte folder `assets` sa sledećim fajlovima:
-     - `replika.png` (60s)
-     - `pitanje.png` (90s)
-     - `novarec.png` (120s)
-     - `tehnickareplika.png` (30s)
+3. **Слике**:
+   - Креирајте фолдер `assets` са следећим фајловима:
+     - `replika.png` (60с)
+     - `pitanje.png` (90с)
+     - `novarec.png` (120с)
+     - `tehnickareplika.png` (30с)
 
-## Upotreba
+## Употреба
 
-### Osnovne funkcije
-- **Timer A** (levo):
-  - Podrazumevano 20:00
-  - Klikom na vreme resetuje se na početnu vrednost
-  - "Pauziraj/Nastavi" dugme
+### Основне функције
+- **Тајмер ТАЧКА ДНЕВНОГ РЕДА** (лево):
+  - Подразумевано 20:00
+  - Кликом на време ресетује се на почетну вредност
+  - "Паузирај/Настави" дугме
 
-- **Timer B** (desno):
-  - Postavlja se prečicama 1-4
-  - "Pauziraj T2/Nastavi T2" dugme
+- **Тајмер ДИЈАЛОГ** (десно):
+  - Поставља се пречицама 1-4
+  - "Паузирај Т2/Настави Т2" дугме
 
-### Opcije (dugmad 1-4):
-1. **Replika** - 60 sekundi
-2. **Pitanje** - 90 sekundi 
-3. **Nova Reč** - 120 sekundi
-4. **Tehnička Replika** - 30 sekundi
+### Опције (дугмад 1-4):
+1. **Реплика** - 60 секунди
+2. **Питање** - 90 секунди 
+3. **Нова Реч** - 120 секунди
+4. **Техничка Реплика** - 30 секунди
 
-Prelazom miša preko dugmeta prikazuje se naziv opcije.
+Прелазом миша преко дугмета приказује се назив опције.
 
-## Postavke
+## Подешавања
 
-Pristup preko dugmeta "Podešavanja":
-- Promena početnog vremena za Timer A
-- Izmena trajanja za svaku opciju
-- Sve promene se primenjuju odmah
+Приступ преко дугмета „Подешавања“:
+- Промена почетног времена за Тајмер А
+- Измена трајања за сваку опцију
+- Све промене се примењују одмах
 
-## Prečice
+## Пречице
 
-- **1-4**: Pokretanje odgovarajuće opcije
-- **Klik na Timer A**: Resetovanje
-- **ALT + F4**: Zatvaranje aplikacije
+- **1-4**: Покретање одговарајуће опције
+- **Клик на Тајмер А**: Ресетовање
+- **ALT + F4**: Затварање апликације
 
-## Licenca
+## Лиценца
 
-Ovaj projekat je licenciran pod MIT licencom. Pogledajte [LICENSE](LICENSE) fajl za detalje.
+Овај пројекат је лиценциран под MPL-2.0 лиценцом. Погледајте [LICENSE](LICENSE) фајл за детаље.
