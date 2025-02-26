@@ -2,7 +2,7 @@
 
 Једноставна апликација за управљање временом током пленума.
 
-![pLock Screenshot](assets/screenshot.png)
+![pLock Screenshot](https://i.imgur.com/34Z5L5j.png)
 
 ## Садржај
 - [Инсталација](#инсталација)
